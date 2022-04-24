@@ -3,7 +3,7 @@
 // подключим стандартное пространство имён
 using namespace std;
 
-// объявим функцию для вывода матриц
+// объявим функцию для вывода матриц.
 template <class T>
 void PrintMatrix(T matrix[[]], int rows, int columns){
     for(int i = 0; i<rows; i++){
